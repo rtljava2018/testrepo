@@ -1,6 +1,5 @@
 Berlin Clock
 ============
-
 Project Overview
 ----------------
 
@@ -8,7 +7,6 @@ This project is a **Berlin Clock** built with **Kotlin, Jetpack Compose, and Hil
 
 Screenshots
 -----------
-
 Sample screens from the kata:
 
 ![Initial kata](doc/image/screen1.png)
@@ -24,10 +22,11 @@ Clock Rules
     *   Upper row: 11 lamps, each representing 5-minute blocks. Every third lamp is red, the rest are yellow.
     *   Lower row: 4 yellow lamps, each representing 1-minute blocks.
 
+
 How to Clone & Run
 ------------------
 
-\# Clone the repository
+### Clone the repository
 
     git clone https://github.com/2026-DEV2-046/BerlinClockTask.git
     cd BerlinClockTask
@@ -35,7 +34,13 @@ How to Clone & Run
     ./gradlew test
     ./gradlew connectedAndroidTest
 
+
+  ### Requirements  
   
+- **JDK 11** (recommended)  
+- **Android Studio Narwhal** 
+- **Android SDK** installed  
+- **Gradle 8.13** (Wrapper included)
 
 Tech Stack
 ----------
